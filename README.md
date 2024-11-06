@@ -32,6 +32,11 @@ The project leverages:
 
 To set up and run this project locally, follow these steps:
 
+## Usage
+- Enter your OpenAI API key in the sidebar.
+- Upload PDF files, and type your question in the text input box.
+- View the retrieved context and generated answer.
+
 ### Prerequisites
 
 - **Python**: Ensure Python 3.7 or later is installed on your system.
