@@ -32,19 +32,18 @@ The project leverages:
 
 To set up and run this project locally, follow these steps:
 
-## Usage
-- Enter your OpenAI API key in the sidebar.
-- Upload PDF files, and type your question in the text input box.
-- View the retrieved context and generated answer.
-
 ### Prerequisites
 
 - **Python**: Ensure Python 3.7 or later is installed on your system.
 - **OpenAI API Key**: Sign up on the [OpenAI website](https://beta.openai.com/signup/) and obtain an API key.
 
-### Installation Steps
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/OpenAI_RAG_Scientific_Articles.git
-   cd OpenAI_RAG_Scientific_Articles
+## Usage
+- Enter your OpenAI API key in the sidebar.
+- Upload PDF files, and type your question in the text input box.
+- View the retrieved context and generated answer.
+
+## Example Workflow
+- Upload a scientific PDF or any other document.
+- Type a question in the query box, such as "What are the main findings discussed in the paper?".
+- View the context retrieved from the document and the generated answer.
