@@ -6,7 +6,7 @@ A Streamlit-based application that leverages OpenAI's API to perform retrieval-a
 
 1. [Project Overview](#project-overview)
 2. [Features](#features)
-3. [Installation](#installation)
+3. [Prerequisites](#prerequisites)
 4. [Usage](#usage)
 5. [Project Structure](#project-structure)
 6. [How It Works](#how-it-works)
@@ -28,11 +28,8 @@ The project leverages:
 - **Content Embedding and Search**: Convert text chunks to embeddings and search for relevant content based on user queries.
 - **Question-Answering**: Ask questions based on uploaded content, and receive contextual answers generated using OpenAI's API.
   
-## Installation
 
-To set up and run this project locally, follow these steps:
-
-### Prerequisites
+## Prerequisites
 
 - **Python**: Ensure Python 3.7 or later is installed on your system.
 - **OpenAI API Key**: Sign up on the [OpenAI website](https://beta.openai.com/signup/) and obtain an API key.
@@ -60,10 +57,10 @@ OpenAI_RAG_Scientific_Articles/
 └── README.md              # Project documentation   
 
 ## Key Files
-main.py: The main script for running the Streamlit app.
-pdf_processing.py: Contains functions to process PDF files and extract text.
-embedding.py: Contains functions for generating embeddings, searching content, and querying OpenAI's API.
-requirements.txt: Lists all Python libraries required to run the app.
+- **main.py**: The main script for running the Streamlit app.    
+- **pdf_processing.py**: Contains functions to process PDF files and extract text.      
+- **embedding.py**: Contains functions for generating embeddings, searching content, and querying OpenAI's API.   
+- **requirements.txt**: Lists all Python libraries required to run the app.     
 
 ## How It Works
 - **PDF Extraction**P: The app extracts text from the first few pages of each uploaded PDF to get relevant content.
