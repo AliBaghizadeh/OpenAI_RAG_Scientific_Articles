@@ -51,7 +51,7 @@ To set up and run this project locally, follow these steps:
 ## Project Structure
 The project is structured as follows:
 
-OpenAI_RAG_Scientific_Articles/
+OpenAI_RAG_Scientific_Articles/      
 ├── main.py                # Entry point for the Streamlit app    
 ├── pdf_processing.py      # Functions for extracting and chunking PDF text    
 ├── embedding.py           # Functions for embedding and querying    
@@ -59,3 +59,15 @@ OpenAI_RAG_Scientific_Articles/
 ├── .gitignore             # File to ignore unnecessary files in Git   
 └── README.md              # Project documentation   
 
+## Key Files
+main.py: The main script for running the Streamlit app.
+pdf_processing.py: Contains functions to process PDF files and extract text.
+embedding.py: Contains functions for generating embeddings, searching content, and querying OpenAI's API.
+requirements.txt: Lists all Python libraries required to run the app.
+
+## How It Works
+- **PDF Extraction**P: The app extracts text from the first few pages of each uploaded PDF to get relevant content.
+- **Text Chunking**P: Text is divided into chunks to ensure efficient processing and embedding.
+- **Embedding Generation**P: Using OpenAI’s text-embedding-ada-002 model, each text chunk is converted into an embedding vector.
+- **Vector Search with FAISS**P: The FAISS library allows for efficient searching through the embedding vectors to find relevant text chunks based on a user's question.
+- **Contextual Answer Generation**P: The app uses the context retrieved from FAISS and generates an answer with OpenAI's API.
