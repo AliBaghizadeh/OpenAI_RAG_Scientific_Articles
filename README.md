@@ -52,10 +52,10 @@ To set up and run this project locally, follow these steps:
 The project is structured as follows:
 
 OpenAI_RAG_Scientific_Articles/
-├── main.py                # Entry point for the Streamlit app
-├── pdf_processing.py      # Functions for extracting and chunking PDF text
-├── embedding.py           # Functions for embedding and querying
-├── requirements.txt       # List of dependencies
-├── .gitignore             # File to ignore unnecessary files in Git
-└── README.md              # Project documentation
+├── main.py                # Entry point for the Streamlit app    
+├── pdf_processing.py      # Functions for extracting and chunking PDF text    
+├── embedding.py           # Functions for embedding and querying    
+├── requirements.txt       # List of dependencies   
+├── .gitignore             # File to ignore unnecessary files in Git   
+└── README.md              # Project documentation   
 
