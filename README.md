@@ -51,7 +51,8 @@ OpenAI_RAG_Scientific_Articles/
 ├── pdf_processing.py         # Functions for extracting and chunking PDF text    
 ├── embedding.py              # Functions for embedding and querying    
 ├── requirements.txt          # List of dependencies   
-├── .gitignore                # File to ignore unnecessary files in Git   
+├── example_data               # Examples of some pdf files of scientific articles     
+├── .gitignore                # File to ignore unnecessary files in Git  
 └── README.md                 # Project documentation   
 
 ## Key Files
