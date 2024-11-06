@@ -47,3 +47,15 @@ To set up and run this project locally, follow these steps:
 - Upload a scientific PDF or any other document.
 - Type a question in the query box, such as "What are the main findings discussed in the paper?".
 - View the context retrieved from the document and the generated answer.
+
+## Project Structure
+The project is structured as follows:
+
+OpenAI_RAG_Scientific_Articles/
+├── main.py                # Entry point for the Streamlit app
+├── pdf_processing.py      # Functions for extracting and chunking PDF text
+├── embedding.py           # Functions for embedding and querying
+├── requirements.txt       # List of dependencies
+├── .gitignore             # File to ignore unnecessary files in Git
+└── README.md              # Project documentation
+
