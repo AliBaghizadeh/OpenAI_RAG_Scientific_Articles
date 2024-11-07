@@ -80,7 +80,7 @@ OpenAI_RAG_Scientific_Articles/
 ├── pdf_processing.py         # Functions for extracting and chunking PDF text    
 ├── embedding.py              # Functions for embedding and querying    
 ├── requirements.txt          # List of dependencies   
-├── example_data               # Examples of some pdf files of scientific articles     
+├── pdf_files                 # Examples of some pdf files of scientific articles from my own research    
 ├── .gitignore                # File to ignore unnecessary files in Git  
 └── README.md                 # Project documentation   
 ```
@@ -96,3 +96,16 @@ OpenAI_RAG_Scientific_Articles/
 - **Embedding Generation**P: Using OpenAI’s text-embedding-ada-002 model, each text chunk is converted into an embedding vector.
 - **Vector Search with FAISS**P: The FAISS library allows for efficient searching through the embedding vectors to find relevant text chunks based on a user's question.
 - **Contextual Answer Generation**P: The app uses the context retrieved from FAISS and generates an answer with OpenAI's API.
+
+## Contributing
+Contributions are welcome! If you'd like to improve the app, please follow these steps:
+
+Fork the repository.
+Create a new branch (git checkout -b feature/new-feature).
+Make your changes and commit them (git commit -m 'Add new feature').
+Push to the branch (git push origin feature/new-feature).
+Open a pull request.
+Please ensure that your code adheres to the existing style and is well-documented.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
