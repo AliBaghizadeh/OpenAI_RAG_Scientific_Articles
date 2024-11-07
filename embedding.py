@@ -3,6 +3,9 @@ from typing import List, Any
 import numpy as np
 import tiktoken
 import pandas as pd
+from openai import OpenAI
+
+client = OpenAI()
 
 def get_embedding(text: str, model: str) -> List[float]:
     """
