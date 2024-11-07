@@ -49,11 +49,11 @@ def complete(user_prompt: str, max_tokens=500) -> Any:
     Returns:
         Any: Completion object from OpenAI API.
     """
-    completion = openai.ChatCompletion.create(
-        model="gpt-4",
-        messages=[{"role": "user", "content": user_prompt}],
-        max_tokens=max_tokens,
-        temperature=0,
+    completion = client.chat.completions.create(
+        model = "gpt-4o-mini",
+        messages= [{"role":"user", "content":user_prompt}],
+        max_tokens= max_tokens,
+        temperature= 0,
     )
     return completion
 
