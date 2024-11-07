@@ -11,7 +11,6 @@ A Streamlit-based application that leverages OpenAI's API to perform retrieval-a
 5. [Project Structure](#project-structure)
 6. [How It Works](#how-it-works)
 7. [Contributing](#contributing)
-8. [License](#license)
 
 ## Project Overview
 
@@ -99,13 +98,12 @@ OpenAI_RAG_Scientific_Articles/
 
 ## Contributing
 Contributions are welcome! If you'd like to improve the app, please follow these steps:
-
+```
 Fork the repository.
 Create a new branch (git checkout -b feature/new-feature).
 Make your changes and commit them (git commit -m 'Add new feature').
 Push to the branch (git push origin feature/new-feature).
 Open a pull request.
 Please ensure that your code adheres to the existing style and is well-documented.
+```
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
