@@ -6,10 +6,12 @@ A Streamlit-based application that leverages OpenAI's API to perform retrieval-a
 
 1. [Project Overview](#project-overview)
 2. [Features](#features)
-3. [Prerequisites](#prerequisites)
+3. [Installation](#installation)
 4. [Usage](#usage)
 5. [Project Structure](#project-structure)
 6. [How It Works](#how-it-works)
+7. [Contributing](#contributing)
+8. [License](#license)
 
 ## Project Overview
 
@@ -26,12 +28,39 @@ The project leverages:
 - **Content Embedding and Search**: Convert text chunks to embeddings and search for relevant content based on user queries.
 - **Question-Answering**: Ask questions based on uploaded content, and receive contextual answers generated using OpenAI's API.
   
+## Installation
 
-## Prerequisites
+To set up and run this project locally, follow these steps:
+
+### Prerequisites
 
 - **Python**: Ensure Python 3.7 or later is installed on your system.
 - **OpenAI API Key**: Sign up on the [OpenAI website](https://beta.openai.com/signup/) and obtain an API key.
 
+### Installation Steps
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/OpenAI_RAG_Scientific_Articles.git
+   cd OpenAI_RAG_Scientific_Articles
+   
+2. **Create a virtual environment (optional but recommended)**:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On macOS/Linux
+   venv\Scripts\activate     # On Windows
+
+3- **Install the dependencies**:
+  ```bash
+  pip install -r requirements.txt
+
+4- **Run the Streamlit application**:
+  ```bash
+  streamlit run main.py
+
+5- **Access the App**:
+  ```bash
+  Open your web browser and go to http://localhost:8501
 
 ## Usage
 - Enter your OpenAI API key in the sidebar.
