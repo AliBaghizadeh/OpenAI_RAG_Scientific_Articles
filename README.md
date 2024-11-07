@@ -90,11 +90,11 @@ OpenAI_RAG_Scientific_Articles/
 - **requirements.txt**: Lists all Python libraries required to run the app.     
 
 ## How It Works
-- **PDF Extraction**P: The app extracts text from the first few pages of each uploaded PDF to get relevant content.
-- **Text Chunking**P: Text is divided into chunks to ensure efficient processing and embedding.
-- **Embedding Generation**P: Using OpenAI’s text-embedding-ada-002 model, each text chunk is converted into an embedding vector.
-- **Vector Search with FAISS**P: The FAISS library allows for efficient searching through the embedding vectors to find relevant text chunks based on a user's question.
-- **Contextual Answer Generation**P: The app uses the context retrieved from FAISS and generates an answer with OpenAI's API.
+- **PDF Extraction**: The app extracts text from the first few pages of each uploaded PDF to get relevant content.
+- **Text Chunking**: Text is divided into chunks to ensure efficient processing and embedding.
+- **Embedding Generation**: Using OpenAI’s text-embedding-ada-002 model, each text chunk is converted into an embedding vector.
+- **Vector Search with FAISS**: The FAISS library allows for efficient searching through the embedding vectors to find relevant text chunks based on a user's question.
+- **Contextual Answer Generation**: The app uses the context retrieved from FAISS and generates an answer with OpenAI's API.
 
 ## Contributing
 Contributions are welcome! If you'd like to improve the app, please follow these steps:
