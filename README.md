@@ -74,7 +74,7 @@ To set up and run this project locally, follow these steps:
 
 ## Project Structure
 The project is structured as follows:
-
+```
 OpenAI_RAG_Scientific_Articles/      
 ├── main.py                   # Entry point for the Streamlit app    
 ├── pdf_processing.py         # Functions for extracting and chunking PDF text    
@@ -83,7 +83,7 @@ OpenAI_RAG_Scientific_Articles/
 ├── example_data               # Examples of some pdf files of scientific articles     
 ├── .gitignore                # File to ignore unnecessary files in Git  
 └── README.md                 # Project documentation   
-
+```
 ## Key Files
 - **main.py**: The main script for running the Streamlit app.    
 - **pdf_processing.py**: Contains functions to process PDF files and extract text.      
