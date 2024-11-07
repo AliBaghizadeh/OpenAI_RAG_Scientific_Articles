@@ -17,7 +17,7 @@ def get_embedding(text: str, model: str) -> List[float]:
     Returns:
         List[float]: The embedding vector for the text.
     """
-    response = openai.embeddings.create(model=model, input=[text])
+    response = client.embeddings.create(model=model, input=[text])
     return response.data[0].embedding
 
 def join_top_chunks(df_chunks: pd.DataFrame, indices: Any, encoding, max_token_size=600) -> str:
