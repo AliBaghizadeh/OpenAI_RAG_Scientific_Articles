@@ -4,4 +4,4 @@ numpy
 PyPDF2
 faiss-cpu
 tiktoken
-openai
+openai==1.46.0
