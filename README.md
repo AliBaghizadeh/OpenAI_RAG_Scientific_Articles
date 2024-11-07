@@ -50,15 +50,15 @@ To set up and run this project locally, follow these steps:
    source venv/bin/activate  # On macOS/Linux
    venv\Scripts\activate     # On Windows
 
-3- **Install the dependencies**:
+3. **Install the dependencies**:
   ```bash
   pip install -r requirements.txt
 
-4- **Run the Streamlit application**:
+4. **Run the Streamlit application**:
   ```bash
   streamlit run main.py
 
-5- **Access the App**:
+5. **Access the App**:
   ```bash
   Open your web browser and go to http://localhost:8501
 
