@@ -50,16 +50,16 @@ To set up and run this project locally, follow these steps:
    venv\Scripts\activate     # On Windows
    ```
 3. **Install the dependencies**:
-  ```bash
-  pip install -r requirements.txt
-  ```
+   ```bash
+    pip install -r requirements.txt
+   ```
 4. **Run the Streamlit application**:
-  ```bash
-  streamlit run main.py
-  ```
+   ```bash
+   streamlit run main.py
+   ```
 5. **Access the App**:
    ```bash
-  Open your web browser and go to http://localhost:8501
+    Open your web browser and go to http://localhost:8501
     ```
 ## Usage
 - Enter your OpenAI API key in the sidebar.
