@@ -1,6 +1,6 @@
 # OpenAI RAG for Scientific Articles
 
-A Streamlit-based application that leverages OpenAI's API to perform retrieval-augmented question-answering (RAG) on scientific articles in PDF format. This app allows users to upload PDF files, process and extract relevant text, and ask questions based on the content of the PDFs. I learned the foundation of the codes in this app in the course,<a href="https://deeplearningcourses.com/c/genai-openai-chatgpt" target="_blank">Generative AI: OpenAI API, ChatGPT, and GPT-4</a> in Python by Lazy Programmer, and I do recommend it to whoever likes to learn OpenAI and its applications. 
+A Streamlit-based application that leverages OpenAI's API to perform retrieval-augmented question-answering (RAG) on scientific articles in PDF format. This app allows users to upload PDF files, process and extract relevant text, and ask questions based on the content of the PDFs. I learned the foundation of the codes in this app in the course, <a href="https://deeplearningcourses.com/c/genai-openai-chatgpt" target="_blank">Generative AI: OpenAI API, ChatGPT, and GPT-4</a> in Python by Lazy Programmer, and I do recommend it to whoever likes to learn OpenAI and its applications. 
 
 ## Table of Contents
 
