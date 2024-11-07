@@ -44,7 +44,7 @@ To set up and run this project locally, follow these steps:
     cd OpenAI_RAG_Scientific_Articles
    
 2. **Create a virtual environment (optional but recommended)**:
-   bash
+   ```bash
    python -m venv venv
    source venv/bin/activate  # On macOS/Linux
    venv\Scripts\activate     # On Windows
