@@ -1,4 +1,3 @@
-import openai
 from typing import List, Any
 import numpy as np
 import tiktoken
@@ -70,4 +69,4 @@ def get_response(completion: Any) -> str:
     Returns:
         str: The generated response text.
     """
-    return completion.choices[0].message["content"]
+    return completion.choices[0].message.content
